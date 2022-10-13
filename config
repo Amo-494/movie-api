@@ -1,0 +1,8 @@
+[core]
+	repositoryformatversion = 0
+	filemode = true
+	bare = false
+	logallrefupdates = true
+[remote "movie_api"]
+	url = movie_api
+	fetch = +refs/heads/*:refs/remotes/movie_api/*
